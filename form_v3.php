@@ -1,8 +1,8 @@
 <?php
   $email;$comment;$captcha;
   $email = filter_input(INPUT_POST, 'email', FILTER_VALIDATE_EMAIL);
-  $comment = filter_input(INPUT_POST, 'comment', FILTER_DEFAULT);
-  $captcha = filter_input(INPUT_POST, 'token', FILTER_DEFAULT);
+  $comment = filter_input(INPUT_POST, 'comment', FILTER_SANITIZE_STRING);
+  $captcha = filter_input(INPUT_POST, 'token', FILTER_SANITIZE_STRING);
   if(!$captcha){
     echo '<h2>Please check the the captcha form.</h2>';
     exit;
