@@ -1,8 +1,8 @@
 # Google recaptcha demo
 
-Tutorial > https://codeforgeek.com/2014/12/google-recaptcha-tutorial/
+Tutorial > https://codeforgeek.com/google-recaptcha-tutorial/
 
-Tutorial of V3 > https://codeforgeek.com/2019/02/google-recaptcha-v3-tutorial/
+Tutorial of V3 > https://codeforgeek.com/google-recaptcha-v3-tutorial/
 
 Demo > http://demo.codeforgeek.com/google-captcha/
 
